@@ -1,0 +1,16 @@
+﻿<Window x:Class="Sessio02.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sessio02"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="450">
+    <Grid>
+        <Button Content="send" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Background="Red" BorderBrush="#FF10D491" Height="99" Width="164" FontSize="24" FontFamily="Arial"/>
+        <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="179,106,0,0" VerticalAlignment="Top" Height="65" Width="134"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="195,190,0,0" VerticalAlignment="Top" Height="40" Width="94"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="592,138,0,0" VerticalAlignment="Top" Width="100"/>
+
+    </Grid>
+</Window>
