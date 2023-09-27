@@ -7,4 +7,44 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="boton auto.png" />
+    <None Remove="boton beggin.png" />
+    <None Remove="boton home.png" />
+    <None Remove="boton item.png" />
+    <None Remove="boton menu.png" />
+    <None Remove="boton shop.png" />
+    <None Remove="boton summon.png" />
+    <None Remove="boton team.png" />
+    <None Remove="boton training.png" />
+    <None Remove="boton volver.png" />
+    <None Remove="boton zeni.png" />
+    <None Remove="imagen info.png" />
+    <None Remove="imagen training heroes.png" />
+    <None Remove="imagen training items.png" />
+    <None Remove="imagen trianing location.png" />
+    <None Remove="imatje info.png" />
+    <None Remove="saibaman boton.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="boton auto.png" />
+    <Resource Include="boton beggin.png" />
+    <Resource Include="boton home.png" />
+    <Resource Include="boton item.png" />
+    <Resource Include="boton menu.png" />
+    <Resource Include="boton shop.png" />
+    <Resource Include="boton summon.png" />
+    <Resource Include="boton team.png" />
+    <Resource Include="boton training.png" />
+    <Resource Include="boton volver.png" />
+    <Resource Include="boton zeni.png" />
+    <Resource Include="imagen info.png" />
+    <Resource Include="imagen training heroes.png" />
+    <Resource Include="imagen training items.png" />
+    <Resource Include="imagen trianing location.png" />
+    <Resource Include="imatje info.png" />
+    <Resource Include="saibaman boton.png" />
+  </ItemGroup>
+
 </Project>

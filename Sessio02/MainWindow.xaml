@@ -7,10 +7,153 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="800" Width="450">
     <Grid>
-        <Button Content="send" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Background="Red" BorderBrush="#FF10D491" Height="99" Width="164" FontSize="24" FontFamily="Arial"/>
-        <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="179,106,0,0" VerticalAlignment="Top" Height="65" Width="134"/>
-        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="195,190,0,0" VerticalAlignment="Top" Height="40" Width="94"/>
-        <Image HorizontalAlignment="Left" Height="100" Margin="592,138,0,0" VerticalAlignment="Top" Width="100"/>
-
+        <Button Content="" HorizontalAlignment="Left" Margin="30,710,0,0" VerticalAlignment="Top" FontFamily="Arial" RenderTransformOrigin="0.5,0.5" Height="60" Width="60">
+            <Button.Background>
+                <ImageBrush ImageSource="/boton home.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="110,709,0,0" VerticalAlignment="Top" Width="60" Height="60">
+            <Button.Background>
+                <ImageBrush ImageSource="/boton team.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Center" Margin="0,709,0,0" VerticalAlignment="Top" Width="60" Height="60">
+            <Button.Background>
+                <ImageBrush ImageSource="/boton summon.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="280,709,0,0" VerticalAlignment="Top" Width="60" Height="60">
+            <Button.Background>
+                <ImageBrush ImageSource="/boton shop.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="361,709,0,0" VerticalAlignment="Top" Width="60" Height="60">
+            <Button.Background>
+                <ImageBrush ImageSource="/boton menu.png"/>
+            </Button.Background>
+        </Button>
+        <Image HorizontalAlignment="Center" Height="26" Margin="0,633,0,0" VerticalAlignment="Top" Width="391" Source="/imatje info.png" Stretch="Fill">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="/imatje info.png"/>
+            </Image.OpacityMask>
+        </Image>
+        <Button Content="" HorizontalAlignment="Left" Margin="30,664,0,0" VerticalAlignment="Top" Width="70" Height="34">
+            <Button.Background>
+                <ImageBrush ImageSource="/boton volver.png"/>
+            </Button.Background>
+        </Button>
+        <Image HorizontalAlignment="Left" Height="25" Margin="168,669,0,0" VerticalAlignment="Top" Width="30" Source="/boton zeni.png">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="/boton zeni.png"/>
+            </Image.OpacityMask>
+        </Image>
+        <TextBlock HorizontalAlignment="Left" Height="25" Margin="188,669,0,0" TextWrapping="Wrap" Text="1855386" VerticalAlignment="Top" Width="99" Foreground="White" Background="Black" FontSize="24" TextAlignment="Center" FontFamily="Arial"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="351,664,0,0" VerticalAlignment="Top" Width="70" Height="34">
+            <Button.Background>
+                <ImageBrush ImageSource="/boton beggin.png"/>
+            </Button.Background>
+        </Button>
+        <Image HorizontalAlignment="Left" Height="155" Margin="30,467,0,0" VerticalAlignment="Top" Width="165" Source="/imagen training items.png" Stretch="Fill"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="41,509,0,0" VerticalAlignment="Top" Width="42" Height="48" Opacity="0.5">
+            <Button.BorderBrush>
+                <ImageBrush/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <ImageBrush ImageSource="/boton item.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="91,509,0,0" VerticalAlignment="Top" Width="43" Height="48" Opacity="0.5">
+            <Button.BorderBrush>
+                <ImageBrush/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <ImageBrush ImageSource="/boton item.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="140,509,0,0" VerticalAlignment="Top" Width="42" Height="48" Opacity="0.5">
+            <Button.BorderBrush>
+                <ImageBrush/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <ImageBrush ImageSource="/boton item.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="64,561,0,0" VerticalAlignment="Top" Width="43" Height="49" Opacity="0.5">
+            <Button.BorderBrush>
+                <ImageBrush/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <ImageBrush ImageSource="/boton item.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="115,561,0,0" VerticalAlignment="Top" Width="41" Height="48" Opacity="0.5">
+            <Button.BorderBrush>
+                <ImageBrush/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <ImageBrush ImageSource="/boton item.png"/>
+            </Button.Background>
+        </Button>
+        <Image HorizontalAlignment="Left" Height="155" Margin="238,459,0,0" VerticalAlignment="Top" Width="184" Source="/imagen trianing location.png" Stretch="Fill"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="254,498,0,0" VerticalAlignment="Top" Width="163" Height="109" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="/boton training.png"/>
+            </Button.Background>
+        </Button>
+        <Image HorizontalAlignment="Center" Height="117" VerticalAlignment="Center" Width="389" Source="/imagen training heroes.png" Stretch="Fill">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="/imagen training heroes.png"/>
+            </Image.OpacityMask>
+        </Image>
+        <Button Content="" HorizontalAlignment="Left" Margin="49,366,0,0" VerticalAlignment="Top" Height="82" Width="76">
+            <Button.Background>
+                <ImageBrush ImageSource="/saibaman boton.png"/>
+            </Button.Background>
+            <Button.BorderBrush>
+                <ImageBrush/>
+            </Button.BorderBrush>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="125,373,0,0" VerticalAlignment="Top" Width="66" Height="67" Opacity="0.5">
+            <Button.BorderBrush>
+                <ImageBrush/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <ImageBrush ImageSource="/boton item.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="196,373,0,0" VerticalAlignment="Top" Width="65" Height="67" Opacity="0.5">
+            <Button.BorderBrush>
+                <ImageBrush/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <ImageBrush ImageSource="/boton item.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="267,374,0,0" VerticalAlignment="Top" Width="65" Height="66" Opacity="0.5">
+            <Button.BorderBrush>
+                <ImageBrush/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <ImageBrush ImageSource="/boton item.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="338,374,0,0" VerticalAlignment="Top" Width="65" Height="66" Opacity="0.5">
+            <Button.BorderBrush>
+                <ImageBrush/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <ImageBrush ImageSource="/boton item.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Height="38" Margin="338,331,0,0" VerticalAlignment="Top" Width="79" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="/boton auto.png"/>
+            </Button.Background>
+        </Button>
+        <Image HorizontalAlignment="Left" Height="223" Margin="30,95,0,0" VerticalAlignment="Top" Width="387" Source="/imagen info.png" Stretch="Fill">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="/imagen info.png"/>
+            </Image.OpacityMask>
+        </Image>
     </Grid>
 </Window>
